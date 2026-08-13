@@ -8,7 +8,7 @@ class Cliente {
     public float $saldoDevedor;
 
     
-    public function atualizarSaldo(float $valor): self 
+    public function atualizarSaldo(float $valor): self  
     {
         $this->saldoDevedor += $valor;
         return $this;

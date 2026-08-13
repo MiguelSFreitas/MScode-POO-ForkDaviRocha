@@ -1,6 +1,6 @@
 <?php
 
-require_once('produto.php');
+require_once('produto.php'); #link- do arquivo produto.php para poder instanciar a classe Produto
 
 $arrayProdutos = [
     [

@@ -1,6 +1,6 @@
 <?php
 
-require_once('cliente.php');
+require_once('cliente.php'); #link- do arquivo cliente.php para poder instanciar a classe Cliente
 
 $arrayClientes = [
     [
