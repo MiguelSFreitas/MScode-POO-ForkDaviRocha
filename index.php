@@ -54,7 +54,7 @@ foreach ($arrayProdutos as $arrayProduto) {
     $produto->caminhoImagem = $arrayProduto['imagem'];
     $produto->quantidade = $arrayProduto['estoque'];
    
-    $produtos[] = $produto->reporEstoque(-100);
+    $produtos[] = $produto->reporEstoque($arrayProduto['estoque']);
 }
 
 
